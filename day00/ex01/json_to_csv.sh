@@ -1,0 +1,1 @@
+(jq --from-file filter.jq ../ex00/hh.json) | (jq -r '(map(keys) | add | unique ) as $cols | map(. as $row | $cols | map($row[.])) as $rows | $cols, $rows[] | @csv' ) > hh.csv
