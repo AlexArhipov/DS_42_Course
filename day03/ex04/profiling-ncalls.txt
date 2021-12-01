@@ -1,0 +1,781 @@
+         77071 function calls (76886 primitive calls) in 0.890 seconds
+
+   Ordered by: call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+7049/7030    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     5784    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+     5757    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+     5473    0.001    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:130(_getNsTag)
+     4848    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     4134    0.002    0.000    0.007    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:555(endData)
+     2491    0.002    0.000    0.002    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:158(setup)
+     2474    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1882(descendants)
+     1747    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+     1338    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+     1288    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+     1259    0.004    0.000    0.011    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1152(__init__)
+     1259    0.002    0.000    0.003    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:541(pushTag)
+     1259    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/__init__.py:195(can_be_empty_element)
+     1259    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/__init__.py:435(set_up_substitutions)
+     1258    0.002    0.000    0.002    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:527(popTag)
+     1258    0.002    0.000    0.004    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:657(_popToTag)
+     1258    0.003    0.000    0.017    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:691(handle_starttag)
+     1258    0.001    0.000    0.005    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:729(handle_endtag)
+     1258    0.005    0.000    0.024    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:223(start)
+     1258    0.002    0.000    0.011    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:278(end)
+     1258    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:269(_prefix_for_namespace)
+     1252    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:739(handle_data)
+     1215    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+     1207    0.003    0.000    0.005    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/__init__.py:285(_replace_cdata_list_attribute_values)
+     1073    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:299(data)
+      932    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+      813    0.002    0.000    0.002    0.000 {method 'findall' of 're.Pattern' objects}
+      766    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+      649    0.034    0.000    0.034    0.000 {built-in method __new__ of type object at 0x1074e2d50}
+      644    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py:758(decode)
+      616    0.001    0.000    0.002    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:932(__new__)
+      616    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:975(name)
+      616    0.001    0.000    0.002    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:589(object_was_parsed)
+      615    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:492(string_container)
+      500    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1330(_all_strings)
+  413/411    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+      350    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:742(__iter__)
+      338    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py:676(__getitem__)
+      338    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py:754(encode)
+      330    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py:699(__iter__)
+      277    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:908(_checkClosed)
+      245    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:294(<listcomp>)
+      245    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:275(get_text)
+      242    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:389(_last_descendant)
+      240    0.001    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:808(<genexpr>)
+      211    0.001    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:617(_linkage_fixer)
+      179    0.000    0.000    0.002    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:307(comment)
+      177    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+      138    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:614(readable)
+      137    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+      137    0.000    0.000    0.000    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+      137    0.000    0.000    0.528    0.004 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:920(read)
+      137    0.000    0.000    0.529    0.004 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:1060(recv_into)
+      137    0.000    0.000    0.529    0.004 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:575(readinto)
+      137    0.528    0.004    0.528    0.004 {method 'read' of '_ssl._SSLSocket' objects}
+       99    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:164(__getitem__)
+       92    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       78    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1536(__eq__)
+       75    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1456(get)
+       71    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       65    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:698(__init__)
+    63/11    0.000    0.000    0.196    0.018 {method 'join' of 'bytes' objects}
+       62    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       62    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:233(__next)
+       60    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/types.py:164(__get__)
+       54    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:628(name)
+       53    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+       52    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       52    0.000    0.000    0.175    0.003 {method 'read' of '_io.BufferedReader' objects}
+       52    0.000    0.000    0.175    0.003 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:604(_safe_read)
+       51    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:672(keys)
+       51    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:719(__iter__)
+       49    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       47    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       47    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:254(get)
+       45    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:98(_noop)
+       45    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:109(_coerce_args)
+    43/11    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       43    0.000    0.000    0.355    0.008 {method 'readline' of '_io.BufferedReader' objects}
+    43/11    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/abc.py:141(__subclasscheck__)
+       42    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:249(match)
+       40    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       40    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       39    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:392(__subclasshook__)
+       39    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/structures.py:48(__setitem__)
+       34    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+       34    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+       34    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/abc.py:137(__instancecheck__)
+       34    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:160(__len__)
+       32    0.001    0.000    0.004    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:82(decompress)
+       32    0.000    0.000    0.016    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:689(_update_chunk_length)
+       31    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       31    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:289(__call__)
+       31    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:531(__new__)
+       31    0.000    0.000    0.004    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:392(_decode)
+       31    0.000    0.000    0.195    0.006 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:555(stream)
+       31    0.000    0.000    0.175    0.006 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:703(_handle_chunk)
+       31    0.000    0.000    0.195    0.006 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:725(read_chunked)
+       31    0.003    0.000    0.003    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+       31    0.000    0.000    0.195    0.006 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:754(generate)
+       28    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+       28    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/collections/__init__.py:570(__missing__)
+       28    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/utils.py:51(_has_surrogates)
+       27    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/_policybase.py:281(_sanitize_header)
+       27    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/_policybase.py:311(header_fetch_parse)
+       27    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/structures.py:60(<genexpr>)
+       26    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:286(tell)
+       25    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/structures.py:53(__getitem__)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+       23    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+       23    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       23    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:172(append)
+       23    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py:240(__enter__)
+       23    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py:243(__exit__)
+       23    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/queue.py:15(_qsize)
+       22    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:58(<listcomp>)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:56(_path_join)
+       22    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py:255(_is_owned)
+       22    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py:335(notify)
+       22    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:412(urlsplit)
+       22    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:156(__getitem__)
+       21    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+       21    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+       21    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:657(get)
+     21/8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:174(getwidth)
+       21    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:78(readline)
+       21    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:128(__next__)
+       19    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+       19    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:361(urlparse)
+       19    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:187(__iter__)
+       18    0.000    0.000    0.000    0.000 {method 'setdefault' of 'collections.OrderedDict' objects}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+       18    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:111(__init__)
+       18    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/packages/six.py:1015(ensure_text)
+       18    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/_policybase.py:293(header_source_parse)
+       18    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:479(set_raw)
+       18    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:413(ensure_type)
+       18    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:215(add)
+     17/4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:71(_compile)
+       16    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+       16    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:906(<lambda>)
+       16    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:81(groups)
+       15    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+       14    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       14    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:676(items)
+       14    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1499(__bool__)
+       13    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+       12    0.000    0.000    0.000    0.000 {method 'values' of 'collections.OrderedDict' objects}
+       12    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:154(hostname)
+       12    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:190(_hostinfo)
+       12    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/timeout.py:119(_validate_timeout)
+       12    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/queue.py:153(get)
+       11    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+       11    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.deque' objects}
+       11    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:65(_combine_flags)
+       11    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:453(_get_iscased)
+       11    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/queue.py:121(put)
+       11    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/queue.py:18(_put)
+       11    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/queue.py:21(_get)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       10    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+     10/4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:411(_parse_sub)
+     10/4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:469(_parse)
+       10    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:223(<genexpr>)
+        9    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:664(__contains__)
+        9    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:824(update)
+        9    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/re.py:273(_compile)
+        9    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:462(get)
+        9    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:303(<listcomp>)
+        9    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:302(_idna_encode)
+        8    0.000    0.000    0.000    0.000 {method 'decode' of 'bytearray' objects}
+        8    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        8    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        8    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        8    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+        8    0.000    0.000    0.000    0.000 {method 'subn' of 're.Pattern' objects}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(<genexpr>)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:74(_path_stat)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:423(_simple)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:595(isstring)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:168(__setitem__)
+        8    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:210(_encode_invalid_chars)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2517(name)
+        7    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        7    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        7    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+      7/4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:461(_get_literal_prefix)
+        7    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:2023(_normalize_search_value)
+        7    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:2123(search)
+        7    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:314(to_key_val_list)
+        7    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:43(_debug)
+        7    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/structures.py:42(__init__)
+        7    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:50(merge_setting)
+        6    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        6    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        6    0.000    0.000    0.000    0.000 {method 'group' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method time.time}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:51(_r_long)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:855(__enter__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:859(__exit__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1203(_path_importer_cache)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/posixpath.py:52(normcase)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/re.py:172(match)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/re.py:254(escape)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:633(value)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:249(_compile_charset)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:276(_optimize_charset)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:860(_high_bit)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:912(_power_of_two)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:343(_escape)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py:75(RLock)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:97(_intenum_converter)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:998(_output)
+        6    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:708(set_environ)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:527(is_HDN)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py:2573(ip2num)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1216(vals_sorted_by_key)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1220(deepvalues)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1747(__iter__)
+        6    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:51(get_full_url)
+        6    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/structures.py:59(__iter__)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/encodings/idna.py:147(encode)
+        5    0.000    0.000    0.000    0.000 {method 'rstrip' of 'bytes' objects}
+        5    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+        5    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:835(__or__)
+        5    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/packages/six.py:992(ensure_str)
+        5    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:2060(search_tag)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1218(putheader)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1266(<genexpr>)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:782(quote)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:853(quote_from_bytes)
+        5    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:221(putheader)
+        5    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/_internal_utils.py:14(to_native_string)
+        5    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py:2489(getproxies_environment)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2521(default)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2799(<genexpr>)
+        4    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        4    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:36(_relax_case)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:403(cached)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:62(_path_split)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:271(cache_from_source)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1356(find_spec)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:72(_check_methods)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:406(__subclasshook__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/genericpath.py:16(exists)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:798(_missing_)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:805(_create_pseudo_member_)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:841(__and__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:895(<listcomp>)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/enum.py:877(_decompose)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:224(__init__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:492(_get_charset_prefix)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:536(_compile_info)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:598(_code)
+        4    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:759(compile)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:76(__init__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:84(opengroup)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:96(closegroup)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:897(fix_flags)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:913(parse)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:191(_dnsname_match)
+        4    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py:81(__init__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py:107(__enter__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py:116(__exit__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py:237(helper)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:29(_splitparam)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:497(get_all)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:564(get_content_type)
+        4    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/timeout.py:102(__init__)
+        4    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:274(_normalize_host)
+        4    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:963(check_header_validity)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:612(request_host)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:669(escape_path)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:876(__init__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1255(__init__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1383(_normalized_cookie_tuples)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1572(_cookies_from_attrs_set)
+        4    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:111(info)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2467(__init__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2525(annotation)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2529(kind)
+        3    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+        3    0.000    0.000    0.000    0.000 {function HTTPResponse.close at 0x10802f3b0}
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/posixpath.py:232(expanduser)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/re.py:234(compile)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py:216(__init__)
+        3    0.104    0.035    0.104    0.035 {built-in method _socket.gethostbyname}
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        3    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:780(_find_all)
+        3    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1847(find_all)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1985(__init__)
+        3    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:2242(__init__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:1016(splitport)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:588(get_content_maintype)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:132(host)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:91(__new__)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:244(_remove_path_dot_segments)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:297(<listcomp>)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:330(parse_url)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/timeout.py:220(connect_timeout)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/request.py:40(__init__)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:182(<genexpr>)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:738(<lambda>)
+        3    0.000    0.000    0.109    0.036 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:730(should_bypass_proxies)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/fnmatch.py:19(fnmatch)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/fnmatch.py:64(fnmatchcase)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:37(__init__)
+        3    0.000    0.000    0.105    0.035 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py:2557(_proxy_bypass_macosx_sysconf)
+        3    0.000    0.000    0.108    0.036 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py:2620(proxy_bypass_macosx_sysconf)
+        3    0.000    0.000    0.108    0.036 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py:2634(proxy_bypass)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:521(<listcomp>)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:508(cookiejar_from_dict)
+        3    0.003    0.001    0.003    0.001 {built-in method _scproxy._get_proxy_settings}
+        3    0.000    0.000    0.196    0.065 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:823(content)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/hooks.py:17(default_hooks)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/hooks.py:18(<dictcomp>)
+        3    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:74(<listcomp>)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+      2/1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        2    0.001    0.001    0.001    0.001 {method 'read' of '_io.FileIO' objects}
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        2    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+      2/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:311(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:318(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:369(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:424(has_location)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:504(_init_module_attrs)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:576(module_from_spec)
+      2/1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap>:663(_load_unlocked)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:719(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:792(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:882(_find_spec)
+      2/1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap>:948(_find_and_load_unlocked)
+      2/1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap>:978(_find_and_load)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_path_is_mode_type)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:93(_path_isfile)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:369(_get_cached)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:401(_check_name_wrapper)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:438(_classify_pyc)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:471(_validate_timestamp_pyc)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:523(_compile_bytecode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:574(spec_from_file_location)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:719(create_module)
+      2/1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap_external>:722(exec_module)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:793(get_code)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:884(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:909(get_filename)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:914(get_data)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:951(path_stats)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1240(_get_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1272(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1351(_get_spec)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/posixpath.py:41(_get_sep)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py:1356(debug)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py:1614(isEnabledFor)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:413(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_compile.py:411(_mk_bitmap)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:408(_uniq)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:320(_get_timeout)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:549(verify_mode)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:557(verify_mode)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:912(_check_connected)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:139(__init__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:413(close)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:436(isclosed)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/packages/six.py:642(itervalues)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1518(__getattr__)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1822(find)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:122(pushlines)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:125(__iter__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:178(_call_parse)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:218(_parsegen)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:480(urlunsplit)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:469(urlunparse)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:451(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/calendar.py:655(timegm)
+        2    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:120(__init__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:181(is_multipart)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:237(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/retry.py:283(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/retry.py:225(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/ssl_.py:211(resolve_cert_reqs)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/ssl_.py:457(is_ipaddress)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/timeout.py:181(clone)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:47(__init__)
+        2    0.000    0.000    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:92(clear)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:251(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:425(_error_catcher)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:680(supports_chunked_reads)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:170(__init__)
+        2    0.000    0.000    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:215(clear)
+        2    0.000    0.000    0.108    0.054 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:791(get_environ_proxies)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:803(select_proxy)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:72(_timegm)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:128(offset_from_tz_string)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:142(_str2time)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:224(http2time)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:340(split_header_words)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:451(strip_quotes)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:458(parse_ns_headers)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:542(domain_match)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py:2624(getproxies_macosx_sysconf)
+        2    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py:2647(getproxies)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:628(eff_request_host)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:639(request_path)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:683(reach)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:718(is_third_party)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:753(__init__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:916(is_blocked)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:931(is_not_allowed)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:939(set_ok)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:958(set_ok_version)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:973(set_ok_verifiability)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:985(set_ok_name)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:994(set_ok_path)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1005(set_ok_domain)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1064(set_ok_port)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:45(get_host)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1480(_cookie_from_cookie_tuple)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1581(_process_rfc2109_cookies)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1593(make_cookies)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1661(set_cookie)
+        2    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1674(extract_cookies)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py:66(copy)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:65(is_unverifiable)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:48(get_origin_req_host)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:84(unverifiable)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:88(origin_req_host)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:104(__init__)
+        2    0.000    0.000    0.001    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:118(extract_cookies_to_jar)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:343(set_cookie)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:348(update)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:529(merge_cookies)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/structures.py:62(__len__)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/structures.py:82(copy)
+        2    0.000    0.000    0.000    0.000 {built-in method _scproxy._get_proxies}
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:206(deprecated_argument)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:755(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:749(mount)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:58(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:113(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:146(init_poolmanager)
+        2    0.000    0.000    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:319(close)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/__init__.py:187(reset)
+        2    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:138(prepare_markup)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:158(isfunction)
+      2/1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2198(_signature_from_callable)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__import__}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISDIR}
+        1    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x10802f440}
+        1    0.000    0.000    0.000    0.000 {method 'flush' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        1    0.000    0.000    0.890    0.890 financial_enhanced.py:10(main)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/encodings/__init__.py:43(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/encodings/__init__.py:71(search_function)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py:94(__new__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/_collections_abc.py:701(__len__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/genericpath.py:39(isdir)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py:212(_acquireLock)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py:221(_releaseLock)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:74(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py:1600(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 <string>:1(__new__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/collections/__init__.py:550(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/collections/__init__.py:619(update)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:295(_class_escape)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/sre_parse.py:837(_parse_flags)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:168(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:243(_get_conn)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:282(_put_conn)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:310(_validate_conn)
+        1    0.000    0.000    0.518    0.518 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:357(_make_request)
+        1    0.001    0.001    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:479(close)
+        1    0.000    0.000    0.518    0.518 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:518(urlopen)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:882(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:931(_prepare_conn)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:966(_new_conn)
+        1    0.000    0.000    0.177    0.177 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:1002(_validate_conn)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py:1063(_normalize_host)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:240(_inet_paton)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:287(match_hostname)
+        1    0.000    0.000    0.033    0.033 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:398(__new__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:402(_encode_hostname)
+        1    0.000    0.000    0.066    0.066 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:410(wrap_socket)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:460(set_alpn_protocols)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:512(options)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:516(options)
+        1    0.000    0.000    0.066    0.066 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:813(_create)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:950(getpeercert)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:996(send)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:1023(sendall)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:1128(_real_close)
+        1    0.000    0.000    0.064    0.064 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:1132(do_handshake)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py:1202(version)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:115(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:221(makefile)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:406(_decref_socketios)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:412(_real_close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:416(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:422(detach)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:432(family)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:438(type)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:563(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:652(close)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py:735(getaddrinfo)
+        1    0.064    0.064    0.064    0.064 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getpeercert' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'version' of '_ssl._SSLSocket' objects}
+        1    0.002    0.002    0.002    0.002 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 {method 'set_ciphers' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 {method '_set_alpn_protocols' of '_ssl._SSLContext' objects}
+        1    0.018    0.018    0.018    0.018 {method 'load_verify_locations' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.inet_aton}
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.inet_pton}
+        1    0.001    0.001    0.001    0.001 {built-in method _socket.getaddrinfo}
+        1    0.000    0.000    0.000    0.000 {function socket.close at 0x107de6e60}
+        1    0.059    0.059    0.059    0.059 {method 'connect' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x107de6ef0}
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:203(parse_headers)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:236(__init__)
+        1    0.000    0.000    0.339    0.339 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:266(_read_status)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:379(_check_close)
+        1    0.000    0.000    0.340    0.340 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:299(begin)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:408(_close_conn)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:425(flush)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1090(for_name_and_ids)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1302(string)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:1503(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:2156(_matches)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:805(_get_content_length)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:837(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:883(_get_hostport)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:946(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:960(send)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1019(_send_output)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1073(putrequest)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1198(_encode_request)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1202(_validate_path)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1210(_validate_host)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1246(endheaders)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1259(request)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1264(_send_request)
+        1    0.000    0.000    0.340    0.340 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py:1310(getresponse)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/parser.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/parser.py:41(parse)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/parser.py:59(parsestr)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:53(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:70(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:101(push)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:139(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:173(feed)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:184(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:197(_new_message)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:210(_pop_message)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/feedparser.py:471(_parse_headers)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:325(geturl)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:146(username)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:178(_userinfo)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:619(unquote)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:394(_checknetloc)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:386(_splitnetloc)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py:875(urlencode)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:213(get_payload)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:303(set_payload)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:459(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/message.py:451(items)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:151(host)
+        1    0.000    0.000    0.060    0.060 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:161(_new_conn)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:192(_is_using_tunnel)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:208(putrequest)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:231(request)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/queue.py:33(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:297(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:323(set_cert)
+        1    0.000    0.000    0.177    0.177 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:356(connect)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/connection.py:533(_match_hostname)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/proxy.py:4(connection_requires_http_tunnel)
+        1    0.000    0.000    0.060    0.060 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/connection.py:38(create_connection)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/connection.py:101(_set_socket_options)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/connection.py:109(allowed_gai_family)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/request.py:98(set_file_position)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/response.py:40(assert_header_parsing)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/response.py:94(is_response_to_head)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/retry.py:430(_is_method_retryable)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/retry.py:450(is_retry)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/timeout.py:165(from_float)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/ssl_.py:234(resolve_ssl_version)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/ssl_.py:325(disable_check_hostname)
+        1    0.000    0.000    0.034    0.034 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/ssl_.py:250(create_urllib3_context)
+        1    0.000    0.000    0.084    0.084 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/ssl_.py:355(ssl_wrap_socket)
+        1    0.000    0.000    0.066    0.066 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/ssl_.py:481(_ssl_wrap_socket_impl)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/url.py:320(_encode_target)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/timeout.py:195(start_connect)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/timeout.py:238(read_timeout)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:54(__getitem__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:61(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:141(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/_collections.py:231(extend)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:75(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:79(__getattr__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/util/queue.py:12(_init)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:144(_get_decoder)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:195(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:275(release_conn)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:317(_init_length)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:369(_init_decoder)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:414(_flush_decoder)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:581(from_httplib)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:617(getheader)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/response.py:635(closed)
+        1    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+        1    0.000    0.000    0.000    0.000 {method 'flush' of 'zlib.Decompress' objects}
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:78(_default_key_normalizer)
+        1    0.000    0.000    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:173(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:188(_new_pool)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:224(connection_from_host)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:247(connection_from_context)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:262(connection_from_pool_key)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:286(connection_from_url)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/urllib3/poolmanager.py:302(_merge_pool_kwargs)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:82(_encode_params)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:61(path_url)
+        1    0.000    0.000    0.002    0.002 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:175(get_netrc_auth)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:240(extract_zipped_paths)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:482(_parse_content_type_header)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:507(get_encoding_from_headers)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:550(iter_slices)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:601(unquote_unreserved)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:625(requote_uri)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:829(default_user_agent)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:838(default_headers)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/utils.py:942(get_auth_from_url)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/fnmatch.py:38(_compile_pattern)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/fnmatch.py:74(translate)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/_internal_utils.py:30(unicode_is_ascii)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1284(_cookies_for_request)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1291(_cookie_attrs)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1350(add_cookie_header)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/cookiejar.py:1728(clear_expired_cookies)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:81(get_new_headers)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/cookies.py:135(get_cookie_header)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:184(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:175(register_hook)
+        1    0.000    0.000    0.828    0.828 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/api.py:16(request)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:226(__init__)
+        1    0.000    0.000    0.828    0.828 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/api.py:64(get)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:293(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:310(prepare)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:342(prepare_method)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:358(prepare_url)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:444(prepare_headers)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:455(prepare_body)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:529(prepare_content_length)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:542(prepare_auth)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:564(prepare_cookies)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:584(prepare_hooks)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:604(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:715(is_redirect)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:737(iter_content)
+        1    0.001    0.001    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/models.py:843(text)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/hooks.py:23(dispatch_hook)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/encodings/idna.py:300(getregentry)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:81(merge_hooks)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:98(get_redirect_target)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:144(resolve_redirects)
+        1    0.000    0.000    0.002    0.002 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:273(rebuild_proxies)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:362(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:424(__enter__)
+        1    0.000    0.000    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:427(__exit__)
+        1    0.000    0.000    0.002    0.002 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:430(prepare_request)
+        1    0.000    0.000    0.827    0.827 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:470(request)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:677(<listcomp>)
+        1    0.000    0.000    0.717    0.717 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:626(send)
+        1    0.000    0.000    0.107    0.107 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:701(merge_environment_settings)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:730(get_adapter)
+        1    0.000    0.000    0.001    0.001 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/sessions.py:744(close)
+        1    0.000    0.000    0.058    0.058 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:117(__init__)
+        1    0.000    0.000    0.058    0.058 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:441(_feed)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/__init__.py:454(reset)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:203(cert_verify)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:255(build_response)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:292(get_connection)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:329(request_url)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:358(add_headers)
+        1    0.000    0.000    0.519    0.519 /Users/avivien/Library/Python/3.7/lib/python/site-packages/requests/adapters.py:394(send)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/__init__.py:51(lookup)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/__init__.py:129(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/__init__.py:179(initialize_soup)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/element.py:108(__new__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:76(_register_namespaces)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:103(parser_for)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:119(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:220(close)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:67(initialize_soup)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:302(doctype)
+        1    0.000    0.000    0.000    0.000 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:327(default_parser)
+        1    0.020    0.020    0.058    0.058 /Users/avivien/Library/Python/3.7/lib/python/site-packages/bs4/builder/_lxml.py:330(feed)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/netrc.py:10(NetrcParseError)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/netrc.py:22(netrc)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/netrc.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/shlex.py:19(shlex)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/shlex.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:1089(getfullargspec)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2117(_signature_from_function)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2750(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2835(parameters)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py:2839(return_annotation)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
